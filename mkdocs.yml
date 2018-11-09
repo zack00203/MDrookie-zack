@@ -1,0 +1,48 @@
+# Project information
+site_name: 'Medical Notes'
+site_author: 'Zack Lin'
+site_url: 'https://zack00203.github.io/mdrookie-zack'
+
+# Repository
+repo_name: 'zack00203/mdrookie-zack'
+repo_url: 'https://github.com/zack00203/mdrookie-zack'
+
+# Copyright
+copyright: 'Built by <a href="http://github.com/zack00203">Zack Lin</a> &copy; 2017 - 2019'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  favicon: 'assets/favicon.png'
+  palette:
+    primary: 'Indigo'
+    accent: 'Blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'important_devices'
+  # feature:
+    # tabs: true
+
+# Extensions
+markdown_extensions:
+  - pymdownx.superfences
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Preface: index.md
+  - Internal Medicine: 
+    - Nephrology:
+      - 1: IntMed/Neph/1.md
+      - 2: IntMed/Neph/2.md
+    - Chest:
+      - 1: IntMed/Chest/1.md
+      - 2: IntMed/Chest/2.md
+  - Pediatrics:
+    - 1: Ped/1.md
+  - Medical Workup Skills:
+    - 如何看 X-ray: MWS/xray.md
